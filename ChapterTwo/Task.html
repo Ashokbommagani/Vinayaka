@@ -4,6 +4,7 @@
         <title>User Registration form</title>
     </head>
     <body>
+        <stylebackgroud= color:Green;></style>
         <h1>Registration form</h1>
         <form>
             <main>
@@ -22,11 +23,13 @@
             <input type="hidden" name="hidden" />
             <label>Gender:</label>
             <label>male</label>
-            <input type="radio" name="male"  />
+            <input type="radio" name="male" required  />
             <label>female</label>
-            <input type="radio" name="female" />
+            <input type="radio" name="female" required />
+            <label>DoB:</label>
+            <input type="datetime"/>
             <label>Age:</label>
-            <input type="number" name="age" id="id" />
+            <input type="number" name="age" id="id" required />
 
             </main>
             <footer>
