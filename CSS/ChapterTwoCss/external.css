@@ -3,9 +3,9 @@ body
 border: 0cap;
 background-color: yellow;
 }
-p !important
+p 
 {
-    color: green;
+    color: green !important;
     text-align: center;
     font-size: 40px;
     font-style: italic;
