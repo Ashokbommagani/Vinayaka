@@ -1,4 +1,10 @@
+body
+{
+border: 0cap;
+background-color: yellow;
+}
 p
 {
     color: green;
+    text-align: center;
 }
